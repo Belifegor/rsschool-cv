@@ -1,2 +1,2 @@
 # rsschool-cv
-repository for CV task
+https://belifegor.github.io/rsschool-cv/cv
