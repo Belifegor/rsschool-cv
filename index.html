@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandr Cebotari's CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="resume">
+
+<!-- Container с двумя столбцами -->
+<div class="container">
+    
+    <!-- Первый столбец -->
+    <div class="column column1">
+        <!-- Заголовок -->
+        <h1 class="header">Alexandr Cebotari</h1>
+        <div class="photo_block">
+            <img src="/img/photo_profile.PNG" alt="Profile photo" class="photo_header">
+        </div>
+        <hr class="separator_2">
+        <!-- Контактная информация -->
+        <h3 class="section-title">Contact information:</h3>
+        <ul class="contact-list">
+            <li>Phone: +373 62 130 666</li>
+            <li>E-mail: hydrox27@gmail.com</li>
+            <li>GitHub: <a href="https://github.com/Belifegor" class="link">Belifegor</a></li>
+            <li>Telegram: <a href="https://t.me/alex_belifegor" class="link">alex_belifegor</a></li>
+            <li>Discord: <a href="https://discordapp.com/users/620236031689621521/" class="link">Alexandr Cebotari</a></li>
+        </ul>
+    </div>
+    
+    <!-- Второй столбец -->
+    <div class="column column2">
+        <!-- Кратко обо мне -->
+        <h3 class="section-title">Briefly About Myself:</h3>
+        <p class="paragraph">
+            I work as a system administrator at CRM Genesys and making settings for NLU Omilia chat-bot. My work partially overlaps with the Javascript language, which sparked my interest in learning. I like that a front-end developer has growth prospects and I hope to become one. I liked the activity of the RS School community and I want to become a part of it, perhaps in the future I will be able to help other students.
+        </p>
+        <hr class="separator">
+        <!-- Навыки и умения -->
+        <h3 class="section-title">Skills and Proficiency:</h3>
+        <ul class="skills-list">
+            <li>HTML5, CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>Jira</li>
+            <li>VS Code</li>
+        </ul>
+        <hr class="separator">
+        
+        <!-- Примеры кода -->
+        <h3 class="section-title">Code examples:</h3>
+        <p class="paragraph">Countdown timer:</p>
+        <pre class="code-block">
+            <code class="code">
+const deadline = '2023-11-22';
+
+function getTimeRemaining(endtime) {
+    const t = Date.parse(endtime) - Date.parse(new Date()),
+        days = Math.floor(t / (1000 * 60 * 60 * 24)),
+        seconds = Math.floor((t / 1000) % 60),
+        minutes = Math.floor((t / 1000 / 60) % 60),
+        hours = Math.floor((t / (1000 * 60 * 60) % 24));
+
+    return {
+        'total': t,
+        'days': days,
+        'hours': hours,
+        'minutes': minutes,
+        'seconds': seconds
+    };
+}
+            </code>
+        </pre>
+        <hr class="separator">
+        <h3 class="section-title">Education:</h3>
+
+        <ul class="education-list">
+            <li><a href="https://www.udemy.com/course/javascript_full/" class="link">Course on JavaScript + React</a>(in progress)</li>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+        <hr class="separator">
+        
+        <!-- Языки -->
+        <h3 class="section-title">Languages:</h3>
+        <ul class="languages-list">
+            <li>Russian - Native</li>
+            <li>English - Intermediate (B1)</li>
+            <li>Romanian - Intermediate (B2)</li>
+        </ul>
+        <hr class="separator">
+            </div>
+            
+        </div>
+
+</body>
+</html>
