@@ -58,7 +58,7 @@ body {
   color: #F8F8FF;
 }
 
-h1, h3 {
+h1, h2, h3 {
   color: #333;
   white-space: nowrap;
 }
